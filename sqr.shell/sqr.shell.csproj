@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net8</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\sqr.core\sqr.core.csproj" />
+    <ProjectReference Include="../sqr.core/sqr.core.csproj" />
   </ItemGroup>
 
 </Project>

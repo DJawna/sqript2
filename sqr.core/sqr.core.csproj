@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net8</TargetFramework>
     <AssemblyName>Qrakhen.Sqr</AssemblyName>
     <RootNamespace>Qrakhen.Sqr.Core</RootNamespace>
   </PropertyGroup>
@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Properties\strings.Designer.cs">
+    <Compile Update="Properties/strings.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>strings.resx</DependentUpon>
